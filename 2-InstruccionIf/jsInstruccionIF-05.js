@@ -1,6 +1,15 @@
+/*Al ingresar una edad solo debemos informar si la persona NO es adolescente.
+Alex Villamayor Division D */
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	var edad;
 
-}//FIN DE LA FUNCIÓN
+	edad=document.getElementById('txtIdEdad').value;
+	edad=parseInt(edad);
+
+	if(edad>12!=edad<18)
+	{
+		alert("No es adolescente");
+	}
+	
+}
